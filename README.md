@@ -13,7 +13,7 @@ CLIENT USAGE
 
 * Initialize the client
 ```
-require_once '/path-to-the-client/CDNsunCdnApiClient.php';
+require_once '/path/CDNsunCdnApiClient.php';
 
 $client = new CDNsunCdnApiClient([
                                     'username' => 'YOUR_API_USERNAME', 
