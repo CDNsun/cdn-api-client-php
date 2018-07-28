@@ -15,7 +15,7 @@ $client = new CDNsunCdnApiClient([
                                     'password' => 'YOUR_API_PASSWORD',
                                  ]);
 
-// get CDN service reports
+// get CDN service reports (https://cdnsun.com/knowledgebase/api/documentation/res/cdn/act/reports)
 $response = $client->get([   
                             'url'   => 'cdns/ID/reports',
                             'data'  => [
@@ -24,7 +24,7 @@ $response = $client->get([
                                        ],
                          ]);
 
-// purge CDN content
+// purge CDN content (https://cdnsun.com/knowledgebase/api/documentation/res/cdn/act/purge)
 $response = $client->post([   
                             'url'   => 'cdns/ID/purge',
                             'data'  => [
