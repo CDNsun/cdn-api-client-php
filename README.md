@@ -7,7 +7,7 @@ SYSTEM REQUIREMENTS
 
 USAGE
 
-* Initialize the CDN API client
+* Initialize the client
 ```
 require_once '/path-to-the-library/CDNsunCdnApiClient.php';
 
@@ -27,7 +27,7 @@ $response = $client->get([
                                        ],
                          ]);
 ```
-* Purge CDN content (https://cdnsun.com/knowledgebase/api/documentation/res/cdn/act/purge)
+* Purge CDN service content (https://cdnsun.com/knowledgebase/api/documentation/res/cdn/act/purge)
 
 ```
 $response = $client->post([   
