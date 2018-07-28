@@ -5,11 +5,11 @@ SYSTEM REQUIREMENTS
 * PHP >=5.4
 * PHP curl
 
-API DOCUMENTATION
+CDN API DOCUMENTATION
 
 https://cdnsun.com/knowledgebase/api
 
-USAGE
+CLIENT USAGE
 
 * Initialize the client
 ```
