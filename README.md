@@ -1,4 +1,4 @@
-# Client library for CDNsun CDN API
+# Client for CDNsun CDN API
 
 SYSTEM REQUIREMENTS
 
@@ -13,7 +13,7 @@ CLIENT USAGE
 
 * Initialize the client
 ```
-require_once '/path-to-the-library/CDNsunCdnApiClient.php';
+require_once '/path-to-the-client/CDNsunCdnApiClient.php';
 
 $client = new CDNsunCdnApiClient([
                                     'username' => 'YOUR_API_USERNAME', 
