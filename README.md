@@ -11,8 +11,8 @@ USAGE
 require_once '/path-to-the-library/CDNsunCdnApiClient.php';
 
 $client = new CDNsunCdnApiClient([
-                                    'username' => 'YOUR_USERNAME', 
-                                    'password' => 'YOUR_PASSWORD',
+                                    'username' => 'YOUR_API_USERNAME', 
+                                    'password' => 'YOUR_API_PASSWORD',
                                  ]);
 
 $response = $client->get([   
@@ -36,7 +36,7 @@ $response = $client->post([
 
 NOTES
 
-* ID stands for CDN service ID, it is an integer, eg. 123
+* The ID stands for a CDN service ID, it is an integer number, eg. 123
 
 API DOCUMENTATION
 
