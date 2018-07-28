@@ -8,11 +8,11 @@ SYSTEM REQUIREMENTS
 USAGE
 
 ```
-require_once './CDNsunCdnApiClient.php';
+require_once '/path-to-the-library/CDNsunCdnApiClient.php';
 
 $client = new CDNsunCdnApiClient([
-                                    'username' => 'USERNAME', 
-                                    'password' => 'PASSWORD',
+                                    'username' => 'YOUR_USERNAME', 
+                                    'password' => 'YOUR_PASSWORD',
                                  ]);
 
 $response = $client->get([   
@@ -33,6 +33,10 @@ $response = $client->post([
                                        ],
                          ]);
 ```
+
+NOTES
+
+* ID stands for CDN service ID, it is an integer, eg. 123
 
 API DOCUMENTATION
 
