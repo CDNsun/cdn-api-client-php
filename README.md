@@ -38,7 +38,7 @@ $response = $client->post([
 
 NOTES
 
-* The ID stands for a CDN service ID, it is an integer number, eg. 123, to find your CDN service ID please visit the Services/How-To (https://cdnsun.com/cdn/how-to) page in CDNsun CDN dashboard.
+* The ID stands for a CDN service ID, it is an integer number, eg. 123, to find your CDN service ID please visit the Services/How-To (https://cdnsun.com/cdn/how-to) page in the CDNsun CDN dashboard.
 
 API DOCUMENTATION
 
