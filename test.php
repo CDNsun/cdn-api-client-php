@@ -12,6 +12,11 @@ $client = new CDNsunCdnApiClient([
                                  ]);
 
 $response = $client->get([   
+                            'url'   => 'cdns',                            
+                         ]);
+var_dump($response);
+
+$response = $client->get([   
                             'url'   => 'cdns/' . $id . '/reports',
                             'data'  => [
                                             'type'      =>  'GB',
