@@ -13,12 +13,12 @@ CLIENT USAGE
 
 * Initialize the client
 ```
-require_once '/path/CDNsunCdnApiClient.php';
+require_once './cdn-api-client.php';
 
 $client = new CDNsunCdnApiClient([
                                     'username' => 'YOUR_API_USERNAME', 
                                     'password' => 'YOUR_API_PASSWORD',
-                                 ]);
+                                  ]);
 ```
 
 * Get CDN service reports (https://cdnsun.com/knowledgebase/api/documentation/res/cdn/act/reports)
