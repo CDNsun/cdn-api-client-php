@@ -2,9 +2,9 @@
 
 require_once './cdn-api-client.php';
 
-$username   = 'u8809648490718';
-$password   = '6BfDyH8F2ZNW';
-$id         = 91;
+$username   = 'YOUR_API_USERNAME';
+$password   = 'YOUR_API_PASSWORD';
+$id         = 'YOUR_CDN_SERVICE_ID';
 
 $client = new CDNsunCdnApiClient([
                                     'username' => $username, 
